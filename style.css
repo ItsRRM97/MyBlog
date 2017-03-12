@@ -928,11 +928,11 @@ a:hover, a:active {
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: 600;
-    color: white; // Menu now White
+    color: white; // Menu text now White
 }
 
 .menu ul a:hover, .menu ul a:focus {
-    color: #000;
+    color: white; //Test Edit
 }
 
 .menu > ul > li > a:after {
@@ -942,7 +942,7 @@ a:hover, a:active {
     height: 5px;
     left: 0;
     bottom: 0;
-    background-color: #434343;
+    background-color: #00b5ec; //Edit
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: left top;
@@ -1174,7 +1174,7 @@ a:hover, a:active {
         padding: 40px;
         height: 100%;
         width: 280px;
-        background-color: #222222;
+        background-color: black; //Menu Color now Black
         float: none;
         line-height: 1.5;
         text-align: left;
