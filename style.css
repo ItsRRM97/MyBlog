@@ -928,7 +928,7 @@ a:hover, a:active {
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: 600;
-    color: #434343;
+    color: white; // Menu now White
 }
 
 .menu ul a:hover, .menu ul a:focus {
@@ -1097,14 +1097,16 @@ a:hover, a:active {
     position: absolute;
     height: 2px;
     width: 20px;
-    background-color: #000;
+    background-color: white; //Nav Button Now White
+    transition: all; //added
+    backface-visibility: hidden; added
     content: '';
     cursor: pointer;
 }
 
 .site-header.open #nav-toggle span:before,
 .site-header.open #nav-toggle span:after {
-    background-color: #fff;
+    background-color: white; //edited
 }
 
 #nav-toggle span {
