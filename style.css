@@ -795,7 +795,7 @@ a:hover, a:active {
 }
 
 .top-header {
-    background: #fff;
+    background: black; //Top Header is now Black
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
@@ -830,6 +830,7 @@ a:hover, a:active {
 
 .site-branding .site-description {
     margin-bottom: 0;
+    color : white; // Site Descripion is now White
 }
 
 .site-branding a[rel="home"] {
