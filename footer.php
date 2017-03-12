@@ -76,7 +76,7 @@
                         }
                         ?>
                         <span class="sep"> | </span>
-                        <?php printf( esc_html__( 'Theme: %1$s by %2$s', 'bizprime' ), 'Bizprime', '<a href="http://themeinwp.com/" target = "_blank" rel="designer">Themeinwp </a>' ); ?>
+                        <?php printf( esc_html__( '%1$s by %2$s', 'bizprime' ), 'Designed and Modified', '<a href="https://www.facebook.com/the.rawshn" target = "_blank" rel="designer">Roshan</a>' ); ?>
                     </h4>
                 </div><!-- .site-info -->
             </div>
