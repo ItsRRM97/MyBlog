@@ -268,7 +268,7 @@ button,
 input,
 select,
 textarea {
-    color: #333;
+    color: #333; //This Changes the color of the texts in all pages! For Future Reference
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-size: 0.875rem;
@@ -809,7 +809,7 @@ a:hover, a:active {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #f4f4f4;
+    background-color: black; // Edit
 }
 
 .site-branding {
